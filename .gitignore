@@ -1,2 +1,5 @@
 __pycache__/
 *.pem
+/dist
+/build
+*.spec

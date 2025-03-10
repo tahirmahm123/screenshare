@@ -1,0 +1,1 @@
+pyinstaller --onefile --add-data "templates:templates" --add-data "static:static" --hidden-import=PIL --hidden-import=OpenSSL --collect-all pyscreenshot --collect-all pillow --collect-all OpenSSL --collect-all flask screenshare.py
